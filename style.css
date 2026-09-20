@@ -1,0 +1,241 @@
+body{
+
+
+    
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: stretch;
+    
+    
+    
+    
+    background-color: #E6E6FA;
+  
+  
+   
+  
+    margin: 50px ;
+}
+
+a{
+
+color: white;
+text-decoration: none;
+
+}
+
+.inicio{
+
+    display: flex;
+    
+  
+  background: #2563eb;
+    color: white;
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow:  14px  14px  20px black;
+    
+
+}
+
+.nom {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+text-align: justify;
+background-color: blueviolet;
+
+
+}
+
+.fotoPerfil{
+ border-radius: 300px;
+ width: 180px;
+    height: 180px;
+ border: 5px solid black;
+margin: 10px;
+
+}
+
+
+.texto{
+
+    text-align: justify;
+    font-family: monospace lucida console; 
+     word-break: break-all;
+    font-size: 20px;
+}
+
+.cont{
+display: flex;
+flex-direction: row;
+align-items: center;
+align-content: center;
+
+
+}
+
+
+.icon{
+width: 15px;
+height: 15px;
+margin-left: 10px;
+margin-right: 5px;
+
+}
+
+
+.tex{
+    color: #dbeafe;
+    font-size: 18px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+
+    
+    background: #ffffff;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+     width: 500px;
+    padding: 10px;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow:  14px  14px  20px black;
+}
+
+.acerca{
+
+   
+    font-family: monospace lucida console; 
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+
+.barra{
+    width:80%;
+    height:8px;
+    background:#c2bcbc;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+.nivel{
+    height: 100%;
+    background: #2563eb;
+    border-radius: 10px;
+}
+
+.Java { width: 20%;}
+.BD {width: 20%;}
+.Web{width: 20%;}
+.Ingles {width:10% ;}
+
+
+
+.botones{
+display: flex;
+flex-direction: row;
+
+
+}
+
+.boton1{
+  background-color: #2563eb;
+  height: 30px;
+  width: 100px;
+margin: 20px;
+text-align: center;
+
+align-content: center;
+border-radius: 50px;
+border: white;
+color: white;
+
+}
+
+
+.boton{
+  background-color: #2563eb;
+  height: 30px;
+  width: 100px;
+margin: 20px;
+border-radius: 50px;
+border: white;
+color: white;
+
+}
+
+@media (max-width: 600px){
+
+    body{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    .inicio{
+        width: 60%;
+        border-radius: 50px 50px 0 0;
+    }
+
+    .info{
+        width: 60%;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 0 0 50px 50px;
+    }
+
+    .fotoPerfil{
+        width: 120px;
+        height: 120px;
+    }
+
+    .texto{
+        font-size: 16px;
+        text-align: center;
+        word-break: normal;
+    }
+
+    .tex{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .acerca{
+        font-size: 14px;
+    }
+
+    .cont{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .botones{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boton,
+    .boton1{
+        width: 150px;
+        margin: 10px;
+    }
+
+    .barra{
+        width: 90%;
+    }
+}
+
+

@@ -1,0 +1,129 @@
+body{
+
+    
+  
+    
+    background-color: #E6E6FA;
+  
+  
+   
+  
+    
+
+}
+
+
+
+
+.contenedor{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+width: 100%;
+  background-color: #E6E6FA;
+}
+
+.encabezado{
+display: flex;
+width: 100%;
+flex-direction: column;
+align-items: center;
+
+margin-bottom: 30px;
+height: 70px;
+
+ border-radius: 20px 20px 20px 20px;
+  
+background-color: #2563eb;
+
+
+}
+
+
+.informacion1,.informacion2,.informacion3, .informacion4{
+
+display: flex;
+flex-direction: column;
+box-shadow:  14px  14px  20px black;
+border-radius: 30px 30px 30px 30px;
+text-align: justify;
+width: 550px;
+padding: 10px; 
+margin: 15px;
+
+  
+
+background-color: white;
+}
+
+
+
+.tituloCur{
+
+text-align: justify;
+width: 100%;
+background-color: #2563eb;
+
+}
+
+
+
+
+
+.desc{
+    
+    font-family: monospace lucida console; 
+     word-break: break-all;
+    font-size: 20px;
+    color: black;
+}
+
+.titulo{
+
+    font-family: monospace lucida console; 
+     word-break: break-all;
+     font-weight: bold;
+    font-size: 20px;
+    color: #2563eb;
+}
+
+
+.span{
+
+    font-family: monospace lucida console; 
+     word-break: break-all;
+     font-weight: bold;
+    font-size: 20px;
+    color: #2563eb;
+}
+
+.fechas{
+    font-family: monospace lucida console; 
+     word-break: break-all;
+    font-size: 20px;
+    color: black;
+}
+
+@media(max-width: 600px){
+ .informacion1,.informacion2, .informacion3, .informacion4{
+
+margin: 10px;
+padding: 10px;
+
+
+ }
+
+
+
+.span,
+    .titulo,
+    .fechas,
+    .desc{
+        word-break: break-all;
+        font-size: 12px;
+    }
+
+
+}
